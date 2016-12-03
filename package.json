@@ -1,0 +1,35 @@
+{
+  "name": "ghpages-react-es6-bs3-sass-webpack",
+  "version": "0.0.1",
+  "description": "Example ghpages repo, configured with react, babel, bootstrap 3, sass and webpack",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --content-base docs/ --open --hot --inline",
+    "build": "cross-env NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.26.1",
+    "node-sass": "^3.13.0",
+    "react-transform-hmr": "^1.0.4",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-validator": "^2.2.11"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "tether": "^1.3.9"
+  }
+}
