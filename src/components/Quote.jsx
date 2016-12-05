@@ -19,7 +19,7 @@ class Quote extends React.Component {
     })
     return (
       <blockquote className="blockquote">
-        <p id="quote" className={quoteClasses}>{quote}</p>
+        <p id="quote" className={quoteClasses}>"{quote}"</p>
         <footer id="author" className={authorClasses}>- {author}</footer>
       </blockquote>
     )
