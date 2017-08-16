@@ -1,4 +1,4 @@
-#random-quotes
+# random-quotes
 
 View live site [here](https://kvsm.github.io/random-quotes).
 
